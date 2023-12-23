@@ -1,0 +1,20 @@
+body {
+    div {
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        table {
+            width: 90%;
+            margin: 0 auto;
+            tr:nth-child(even) {
+                background: #b2c7c7
+            }
+
+            tr:nth-child(odd) {
+                background: #838ba1
+            }
+        }
+    }
+}

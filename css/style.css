@@ -1,0 +1,16 @@
+body div h1 {
+  text-align: center;
+  color: blue;
+}
+body div table {
+  width: 90%;
+  margin: 0 auto;
+}
+body div table tr:nth-child(even) {
+  background: #b2c7c7;
+}
+body div table tr:nth-child(odd) {
+  background: #838ba1;
+}
+
+/*# sourceMappingURL=style.css.map */
