@@ -1,16 +1,29 @@
-body div h1 {
+h1 {
   text-align: center;
   color: blue;
 }
-body div table {
+
+#tabela table {
   width: 90%;
   margin: 0 auto;
 }
-body div table tr:nth-child(even) {
+#tabela table tr:nth-child(even) {
   background: #b2c7c7;
 }
-body div table tr:nth-child(odd) {
+#tabela table tr:nth-child(odd) {
   background: #838ba1;
+}
+
+#dod_termina form {
+  background-color: #b2c7c7;
+  margin: 0 auto;
+  width: 90%;
+  padding: 30px;
+  text-align: center;
+}
+#dod_termina form label {
+  width: 200px;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

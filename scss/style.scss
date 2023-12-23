@@ -1,20 +1,35 @@
-body {
-    div {
-        h1 {
-            text-align: center;
-            color: blue;
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+#tabela {
+    table {
+        width: 90%;
+        margin: 0 auto;
+
+        tr:nth-child(even) {
+            background: #b2c7c7
         }
 
-        table {
-            width: 90%;
-            margin: 0 auto;
-            tr:nth-child(even) {
-                background: #b2c7c7
-            }
-
-            tr:nth-child(odd) {
-                background: #838ba1
-            }
+        tr:nth-child(odd) {
+            background: #838ba1
         }
     }
+}
+
+#dod_termina{
+form{
+    background-color: #b2c7c7;
+    margin: 0 auto;
+    width: 90%;
+    padding: 30px;
+    text-align: center;
+
+    label{
+        width: 200px;
+        padding: 20px;
+    }
+
+}
 }
